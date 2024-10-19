@@ -69,6 +69,10 @@ function getResult(answer) {
     }
 
     const totalLetterValue = card_2 + card_3 + card_4 + card_5;
-    document.getElementById('magic-letter').innerHTML = letters[totalLetterValue - 1];
+    if (totalLetterValue) {
+        document.getElementById('magic-letter').innerHTML = letters[totalLetterValue - 1];
+    } else {
+        document.getElementById('magic-letter').innerHTML = "Nothing";
+    }
 
 }

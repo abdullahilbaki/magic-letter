@@ -14,11 +14,11 @@ function openCardOne() {
     document.getElementById('card-1').hidden = false;
 }
 
-var letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'];
-var card_2 = 0;
-var card_3 = 0;
-var card_4 = 0;
-var card_5 = 0;
+let letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'];
+let card_2 = 0;
+let card_3 = 0;
+let card_4 = 0;
+let card_5 = 0;
 
 
 function openCardTwo(selectedLetters) {
